@@ -24,7 +24,7 @@ function updateList() {
 }
 
 function displayList() {
-    var list = document.getElementById("list");
+    var list = document.getElementById("shopping-list");
     var html = "";
     for (var i = 0; i < shoppingList.length; i++) {
         html += "<li>" + shoppingList[i] + "</li>";
