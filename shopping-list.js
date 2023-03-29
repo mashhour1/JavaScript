@@ -22,3 +22,14 @@ function updateList() {
 		listElement.appendChild(itemElement);
 	}
 }
+
+function displayList() {
+    var list = document.getElementById("list");
+    var html = "";
+    for (var i = 0; i < shoppingList.length; i++) {
+        html += "<li>" + shoppingList[i] + "</li>";
+    }
+    list.innerHTML = html;
+
+    console.log("Number of items in shopping list: " + shoppingList.length);
+}
