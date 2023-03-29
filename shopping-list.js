@@ -21,6 +21,7 @@ function updateList() {
 		itemElement.textContent = shoppingList[i];
 		listElement.appendChild(itemElement);
 	}
+	console.log("Number of items in shopping list: " + shoppingList.length);
 }
 
 function displayList() {
