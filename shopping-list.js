@@ -22,6 +22,7 @@ function updateList() {
 		listElement.appendChild(itemElement);
 	}
 	console.log("Number of items in shopping list: " + shoppingList.length);
+	
 }
 
 function displayList() {
@@ -34,3 +35,8 @@ function displayList() {
 
     console.log("Number of items in shopping list: " + shoppingList.length);
 }
+
+		function countItems() {
+			var count = shoppingList.length;
+			alert("Number of items in shopping list: " + count);
+		}
